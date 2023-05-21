@@ -4,7 +4,7 @@ function exampleThree() {
         doWork()
     }
 
-    //by adjusting the numbers manually, we can space the functions out evenly:
+    //by adjusting the firing times manually, we can space the functions out evenly:
     async function two() {
         await sleep(500)
         doWork()
